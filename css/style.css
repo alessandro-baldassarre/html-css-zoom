@@ -40,6 +40,10 @@ a{
     color: white;
 }
 
+.text-green{
+    color: #4bc901;
+}
+
 .bg-gray{
     background-color: #4b4b4a;
 }
@@ -92,18 +96,19 @@ footer{
 .controls{
     align-items: center;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 .icon-name{
-    margin:0 1rem;
+    margin-left: 0.7rem;
 }
 
 .controls p{
-    font-size: .6rem;
+    font-size: .7rem;
     margin-top: 5px;
 }
 
 .shevron-up{
     font-size: .6rem;
+    margin-left: 1rem;
 }
