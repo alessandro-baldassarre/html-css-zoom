@@ -64,24 +64,25 @@ header{
 #users-windows-wrapper{
     background-color: black;
     height: 87vh;
-    padding: 1rem 4rem;
+    padding: 2rem 4rem;
     flex-wrap: wrap;
     overflow: auto;
 }
 
 .user-window{
-    width: 184px;
-    height: 130px;
-    margin: 0 .2rem .5rem 0;
+    width: 212px;
+    height: 155px;
+    margin: 0 .4rem 0.5rem 0;
 }
 
 .user-window img{
     width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
 .user-name{
-    bottom: .5rem;
+    bottom: 0;
     left: 0;
     color: white;
     font-size: .7rem;
@@ -94,7 +95,8 @@ header{
 footer{
     height: 8vh;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0,0.9)
+    background-color: rgba(0, 0, 0,0.9);
+    min-width: 790px;
 }
 
 .controls{
