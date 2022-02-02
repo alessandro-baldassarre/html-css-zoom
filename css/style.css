@@ -4,3 +4,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: sans-serif;
+}
+
+/* common classes */
+
+.flex{
+    display: flex;
+}
+
+.btn-small{
+    padding: .3rem;
+    border-radius: .4rem;
+    margin: .2rem;
+    text-decoration: none;
+    font-size: .7rem;
+}
+
+.text-white{
+    color: white;
+}
+
+.bg-gray{
+    background-color: #4b4b4a;
+}
+
+
+/* header */
+header{
+    height: 8vh;
+    background-color: black;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.view-options{
+    
+
+}

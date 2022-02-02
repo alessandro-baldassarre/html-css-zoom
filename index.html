@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zoom</title>
     
+    <!-- link font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <!-- link custom css -->
     <link rel="stylesheet" href="css/style.css">
@@ -14,8 +16,16 @@
 <body>
 
     <!-- header that contains view options -->
-    <header>
-        speaker view
+    <header class="flex">
+        <div class="view-options">
+            <a href="#" class="btn-small bg-gray text-white">
+                <i class="fas fa-th"></i> Speaker View
+            </a>
+            <a href="#" class="btn-small bg-gray text-white">
+                <i class="fas fa-expand-arrows-alt"></i>
+            </a>
+
+        </div>
     </header>
 
     <!-- main that contains every user window -->
