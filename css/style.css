@@ -9,10 +9,23 @@ body{
     font-family: sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 /* common classes */
 
 .flex{
     display: flex;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
 }
 
 .btn-small{
@@ -30,7 +43,6 @@ body{
 .bg-gray{
     background-color: #4b4b4a;
 }
-
 
 /* header */
 header{
@@ -53,6 +65,45 @@ header{
     width: calc((100vw - 11.4rem) / 7);
     height: calc((85vh - 6.5rem) / 5);
     margin: 0 .2rem .5rem 0;
+}
 
-    border: 1px solid white;
+.user-window img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.user-name{
+    bottom: 0;
+    left: 0;
+    color: white;
+    font-size: .7rem;
+    padding: .2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* footer */
+
+footer{
+    height: 10vh;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0,0.9)
+}
+
+.controls{
+    align-items: center;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.icon-name{
+    margin:0 1rem;
+}
+
+.controls p{
+    font-size: .6rem;
+    margin-top: 5px;
+}
+
+.shevron-up{
+    font-size: .6rem;
 }
