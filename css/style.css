@@ -34,13 +34,25 @@ body{
 
 /* header */
 header{
-    height: 8vh;
+    height: 5vh;
     background-color: black;
     flex-direction: row-reverse;
     align-items: center;
 }
 
-.view-options{
-    
+/* main */
+#users-windows-wrapper{
+    background-color: black;
+    height: 85vh;
+    padding: 2rem 5rem;
+    flex-wrap: wrap;
+    overflow: auto;
+}
 
+.user-window{
+    width: calc((100vw - 11.4rem) / 7);
+    height: calc((85vh - 6.5rem) / 5);
+    margin: 0 .2rem .5rem 0;
+
+    border: 1px solid white;
 }
