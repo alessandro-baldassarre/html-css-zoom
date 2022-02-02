@@ -64,8 +64,9 @@ header{
 #users-windows-wrapper{
     background-color: black;
     height: 87vh;
-    padding: 2rem 4rem;
+    padding: 2rem 0;
     flex-wrap: wrap;
+    justify-content: center;
     overflow: auto;
 }
 
