@@ -74,6 +74,7 @@ header{
     width: 212px;
     height: 155px;
     margin: 0 .4rem 0.5rem 0;
+    flex-shrink: 0;
 }
 
 .user-window img{
@@ -97,7 +98,14 @@ footer{
     height: 8vh;
     justify-content: space-between;
     background-color: rgba(0, 0, 0,0.9);
-    min-width: 790px;
+    overflow: auto;
+    
+}
+
+.bottom-left-footer,
+.bottom-center-footer,
+.bottom-right-footer{
+    flex-shrink: 0;
 }
 
 .controls{
